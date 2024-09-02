@@ -5,6 +5,7 @@ import UserGreeting from "./assets/UserGreeting.jsx"
 import List from "./assets/List.jsx"
 import Component from "./assets/component.jsx"
 import Mycomponent from "./assets/Mycomponent.jsx"
+import Colorpicker from "./assets/Colorpicker.jsx"
 
 function App() {
     const fruits = [{id:0, name:"apple", calories: 95},
@@ -29,6 +30,8 @@ function App() {
         {Vegetables.length > 0 && <List item={Vegetables} category="Vegetables"/>}
         <Component />
         <Mycomponent />    */}
+
+        <Colorpicker />
             
     </> )
 }

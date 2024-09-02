@@ -1,10 +1,21 @@
 import { useState } from "react";
 
-function colorPick(){
+
+function colorPicker(){
+
+    const [boxColor, setboxColor] = useState("#FFFFFF")
+
+    function colorHandler(e){
+        setboxColor(e.target.value)
+    }
+
     return(
         <div>
             <h2>Color Picker</h2>
-            <input type="color" />
+            <div className="colorBox" style={{backgroundColor: boxColor}}></div>
+            <input type="color" value={boxColor} onChange={colorHandler}/>
         </div>
     )    
 }
+
+export default colorPicker

@@ -8,3 +8,11 @@
   border: 1px solid #000;
 }
 
+
+.colorBox{
+  width: 200px;
+  height: 150px;
+  border: 3px solid rgb(189, 187, 187);
+  border-radius: 20px;
+  margin-bottom: 10px;
+}

@@ -4,6 +4,7 @@ import Student from "./assets/Student.jsx"
 import UserGreeting from "./assets/UserGreeting.jsx"
 import List from "./assets/List.jsx"
 import Component from "./assets/component.jsx"
+import Mycomponent from "./assets/Mycomponent.jsx"
 
 function App() {
     const fruits = [{id:0, name:"apple", calories: 95},
@@ -25,9 +26,9 @@ function App() {
         <Student /> 
         <UserGreeting name="cooper" isLoggedin={true}/>
         {fruits.length > 0 && <List item={fruits} category="fruits"/>}
-        {Vegetables.length > 0 && <List item={Vegetables} category="Vegetables"/>}*/}
-    
-        <Component/>    
+        {Vegetables.length > 0 && <List item={Vegetables} category="Vegetables"/>}
+        <Component />
+        <Mycomponent />    */}
             
     </> )
 }

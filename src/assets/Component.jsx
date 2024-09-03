@@ -10,7 +10,8 @@ function Component(){
     }
     
     function incrementAge(){    
-        setAge(age + 1)
+        setAge(age => age + 1)
+        setAge(age => age + 1)
     }
 
     function decrementAge(){    

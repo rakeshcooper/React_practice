@@ -28,11 +28,10 @@ function App() {
         <UserGreeting name="cooper" isLoggedin={true}/>
         {fruits.length > 0 && <List item={fruits} category="fruits"/>}
         {Vegetables.length > 0 && <List item={Vegetables} category="Vegetables"/>}
-        <Component />
         <Mycomponent />    */}
 
-        <Colorpicker />
-            
+        <Component /> 
+        <Colorpicker />   
     </> )
 }
 

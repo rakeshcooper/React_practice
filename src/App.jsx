@@ -7,6 +7,7 @@ import Component from "./assets/component.jsx"
 import Mycomponent from "./assets/Mycomponent.jsx"
 import Colorpicker from "./assets/Colorpicker.jsx"
 import Updateobject from "./assets/Updateobject.jsx"
+import Updatearray from "./assets/Updatearray.jsx"
 
 function App() {
     const fruits = [{id:0, name:"apple", calories: 95},
@@ -31,8 +32,10 @@ function App() {
         {Vegetables.length > 0 && <List item={Vegetables} category="Vegetables"/>}
         <Mycomponent />    
         <Component /> 
-        <Colorpicker />   */}
-        <Updateobject />
+        <Colorpicker />   
+        <Updateobject /> */}
+
+        <Updatearray />
 
     </> )
 }

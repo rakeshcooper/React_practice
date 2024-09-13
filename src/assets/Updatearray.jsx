@@ -1,6 +1,6 @@
 import { useState } from "react"
 function Updatearray(){
-    const [foods, setFoods] = useState(["apple","bananna","orange","lime"])
+    const [foods, setFoods] = useState(["apple","bananna","orange","limes"])
     
 
     function removeFood(food){

@@ -5,6 +5,8 @@ function Nestedarrayofobject(){
 
     return(
         <div>
+            <ul>
+            </ul>
         </div>
     )
 }

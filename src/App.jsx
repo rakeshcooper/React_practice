@@ -8,6 +8,7 @@ import Mycomponent from "./assets/Mycomponent.jsx"
 import Colorpicker from "./assets/Colorpicker.jsx"
 import Updateobject from "./assets/Updateobject.jsx"
 import Updatearray from "./assets/Updatearray.jsx"
+import Nestedarrayofobject from "./assets/Nestedarrayofobjects.jsx"
 
 function App() {
     const fruits = [{id:0, name:"apple", calories: 95},
@@ -33,9 +34,9 @@ function App() {
         <Mycomponent />    
         <Component /> 
         <Colorpicker />   
-        <Updateobject /> */}
-
-        <Updatearray />
+        <Updateobject /> 
+        <Updatearray /> */}
+        <Nestedarrayofobject />
 
     </> )
 }

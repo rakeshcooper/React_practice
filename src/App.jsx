@@ -9,6 +9,7 @@ import Colorpicker from "./assets/Colorpicker.jsx"
 import Updateobject from "./assets/Updateobject.jsx"
 import Updatearray from "./assets/Updatearray.jsx"
 import Nestedarrayofobject from "./assets/Nestedarrayofobjects.jsx"
+import Todo from "./assets/Todo.jsx"
 
 function App() {
     const fruits = [{id:0, name:"apple", calories: 95},
@@ -35,9 +36,9 @@ function App() {
         <Component /> 
         <Colorpicker />   
         <Updateobject /> 
-        <Updatearray /> */}
-        <Nestedarrayofobject />
-
+        <Updatearray /> 
+        <Nestedarrayofobject /> */}
+        <Todo />
     </> )
 }
 

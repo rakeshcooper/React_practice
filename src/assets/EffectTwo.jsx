@@ -6,17 +6,18 @@ function EffectTwo(){
     const [height,setHeight] = useState(window.innerHeight)
 
     useEffect(() => {
-        window.addEventListener("resize", changeHandler)
-        // document.title = `Width ${width} and height ${height}`
-
+        window.addEventListener("resize", changeHandler)  
         console.log("Event listener added");
         
         return() => {
             window.removeEventListener("resize", changeHandler)
             console.log("Event listener removed");
         }
+    })
 
-    },[])
+    useEffect(() => {
+        document.title = `Width ${width} and height ${height}`
+    },[width,height])
 
     function changeHandler(){
         setWidth(window.innerWidth)

@@ -12,6 +12,7 @@ import Nestedarrayofobject from "./assets/Nestedarrayofobjects.jsx"
 import Todo from "./assets/Todo.jsx"
 import Effect from "./assets/Effect.jsx"
 import EffectTwo from "./assets/EffectTwo.jsx"
+import Clock from "./assets/Clock.jsx"
 
 function App() {
     const fruits = [{id:0, name:"apple", calories: 95},
@@ -41,8 +42,9 @@ function App() {
         <Updatearray /> 
         <Nestedarrayofobject /> 
         <Todo /> 
-        <Effect /> */}
-        <EffectTwo />
+        <Effect /> 
+        <EffectTwo />*/}
+        <Clock />
     </> )
 }
 

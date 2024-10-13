@@ -4,7 +4,7 @@ import ComB from "./ComB"
 export const userContext = createContext()
 
 function ComA(){
-    const [user, setUser] = useState("Cooper")
+    const [user, setUser] = useState("Bro")
     return(
         <div className="box">
             <h3>Component A</h3>

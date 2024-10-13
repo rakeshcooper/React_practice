@@ -14,6 +14,7 @@ import Effect from "./assets/Effect.jsx"
 import EffectTwo from "./assets/EffectTwo.jsx"
 import Clock from "./assets/Clock.jsx"
 import ComA from "./assets/ComA.jsx"
+import Testref from "./assets/TestRef.jsx"
 
 function App() {
     const fruits = [{id:0, name:"apple", calories: 95},
@@ -45,8 +46,9 @@ function App() {
         <Todo /> 
         <Effect /> 
         <EffectTwo />
-        <Clock />*/}
-        <ComA />
+        <Clock />
+        <ComA />*/}
+        <Testref />
     </> )
 }
 
